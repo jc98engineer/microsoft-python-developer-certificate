@@ -1,0 +1,80 @@
+# -----------------------------
+# Python cache
+# -----------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# -----------------------------
+# Virtual environments
+# -----------------------------
+.venv/
+venv/
+env/
+
+# -----------------------------
+# Jupyter Notebook checkpoints
+# -----------------------------
+.ipynb_checkpoints/
+
+# -----------------------------
+# VS Code local settings
+# -----------------------------
+.vscode/
+
+# -----------------------------
+# macOS system files
+# -----------------------------
+.DS_Store
+
+# -----------------------------
+# Environment variables / secrets
+# -----------------------------
+.env
+.env.*
+
+# -----------------------------
+# Test and coverage outputs
+# -----------------------------
+.pytest_cache/
+.coverage
+htmlcov/
+
+# -----------------------------
+# Build artifacts
+# -----------------------------
+build/
+dist/
+*.egg-info/
+
+# -----------------------------
+# Data folders
+# -----------------------------
+data/
+datasets/
+raw_data/
+external_data/
+
+# -----------------------------
+# Common data files
+# -----------------------------
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.xlsm
+*.parquet
+*.feather
+*.pkl
+*.pickle
+*.jsonl
+
+# -----------------------------
+# Large or binary files
+# -----------------------------
+*.zip
+*.tar
+*.gz
+*.7z
+*.rar
+*.pdf
